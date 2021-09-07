@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +15,9 @@
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       </head>
+</head>
 <body onresize="screenSize()">
-    <!-- Header section  -->
+    <!-- header part -->
     <header style=" line-height: 0.8;">
         <div class="row">
             <div class="col-md-12">
@@ -161,133 +163,44 @@
             </div>
         </div>
     </header>
+    <!-- header ends -->
 
-    <!-- ribborn -->
-    
-
-    <!-- second banner iphone  -->
-  <!-- <section class="mt-3 col-md-12 banner-two">
-    <div class="row">
-      <div style="text-align:center; " class="col-md-12">
-        <img id="banner-two" class="banners-image" src="hero-banner-baker-homepage.image.small_2x.jpg"
-          width="100%" style="object-fit: cover;" height="600px" width="880px" alt="">
-        <h2 class="banners-header-text">iPhone 12</h2>
-        <h3 class="banners-text">Blast past fast.</h3>
-        <h3 class="banners-sub-text">From ₹69900* before&nbsp;trade‑in</h3>
-        <a class="ml-3 pr-5 mr-5 banners-links" href="">Learn more <i
-            class="banner-links-icons font-weight-normal fas fa-chevron-right"></i></a>
-        <a class=" banners-links pl-5 ml-5 " href="">Buy <i
-            class="banner-links-icons font-weight-normal fas fa-chevron-right"></i></a>
-      </div>
-    </div>
-  </section> -->
-
-   <!-- Welcome to apple supprt section -->
-  <section class=" mb-3 banner-three support-section" style="margin-top: 60px; background-image: url('images/hero-banner-baker-homepage.image.large_2x.jpg'); height: 500px; width: 100%;" >
-    <div class="row">
-      <div style="text-align:center; " class="col-md-12">
-        <h1 style="margin-top: 120px; ">Welcome to Apple Support</h1>
-        <div class="topnav col-md-12">
-          <form action="#" method="post" class="d-flex m-3">
-						<input class="form-control search " type="search"  placeholder="Search here..." required="">
-						
-					</form>
-        </div>
-      </div>
-    </div>
-  </section>
-<!-- Welcome to apple supprt section ends -->
-
-<!-- section icons  -->
-
-  <section>
-    
-  </section>
-
-     <!-- footer section -->
-  <footer>
-    <section class="mt-3 footer-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="m-3 footer-head-text">
-              <span>*Listed pricing is Maximum Retail Price (inclusive of all taxes).<br></span><br>
-              <span> Apple TV+ is ₹99/month after free trial. One subscription per Family Sharing group. Offer is valid
-                for 3 months after eligible device activation. Plan automatically renews until <br> cancelled.
-                Restrictions and other terms apply.</span>
+    <section class="mt-3 mb-3 banner-two scrollmenu">
+            <div class="row">
+                <div class="col-md-12 p-5">
+                    <div class="container  pt-3 signin ">
+                        <div class="sign">
+                            <h1> <strong> Please sign in. </strong></h1>
+                        </div>
+                        <div class="form">
+                        <form action="#" >
+                          <div class="form-group pt-2">
+                            
+                            <input type="email" class="form-control" id="email" placeholder="Apple ID" name="email">
+                          </div>
+                          <div class="form-group pt-2" >
+                            
+                            <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd">
+                          </div>
+                          <div class="form-group form-check pt-2" >
+                            <h6>Your Apple ID is the email address or mobile phone number you <br> use to sign in to iTunes, the App Store, and iCloud.</h6>
+                          </div>
+                          <div class="button-submit" >
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Sign In</button>
+                          </div>
+                        </form>
+                        </div>
+                        <div class="forgot">
+                            <a href="#">Forgot your Apple ID or password?</a>
+                        </div>
+                        <div class="create ">
+                          <a href="#">Don’t have an Apple ID? Create one now.</a>
+                      </div>
+                      </div>
+                      
+                </div>
             </div>
-            <hr>
-          </div>
-          <div class="col-sm-1 col-md-3">
-            <h5 id="column-1" onclick="moreItems()" class="directory-column-section-head">Shop and Learn<i id="icon-1"
-                class="list-items fas fa-plus"></i></h5>
-            <hr class="column-hr">
-            <ul id="list-1" class="ml-3 column-list">
-              <li class="column-list-item">Mac</li>
-              <li class="column-list-item">iPhone</li>
-              <li class="column-list-item">Watch</li>
-              <li class="column-list-item">AirPods</li>
-              <li class="column-list-item">Tv</li>
-            </ul>
-          </div>
-          <div class=" col-md-3">
-            <h5 id="column-2" onclick="moreItems(2)" class="directory-column-section-head"> Services<i id="icon-2"
-                class="list-items fas fa-plus"></i></h5>
-            <hr class="column-hr">
-            <ul id="list-2" class="ml-3  column-list">
-              <li class="column-list-item">Apple Music</li>
-              <li class="column-list-item">Apple TV+</li>
-              <li class="column-list-item">Apple Arcade</li>
-              <li class="column-list-item">iCloud</li>
-              <li class="column-list-item">Apple One</li>
-              <li class="column-list-item">Apple Books</li>
-              <li class="column-list-item">App Store</li>
-            </ul>
-          </div>
-          <div class=" col-md-3">
-            <h5 class="directory-column-section-head">Apple Store<i class="list-items fas fa-plus"></i></h5>
-            <hr class="column-hr">
-            <ul class="ml-3  column-list">
-              <li class="column-list-item">Shop Online</li>
-              <li class="column-list-item">Ways to Buy</li>
-              <li class="column-list-item">Apple Trade In</li>
-              <li class="column-list-item">Recycling Programme</li>
-              <li class="column-list-item">Order Status</li>
-              <li class="column-list-item">Shopping Help</li>
-            </ul>
-          </div>
-          <div class=" col-md-3">
-            <h5 class="directory-column-section-head"> Apple Values<i class="list-items fas fa-plus"></i></h5>
-            <hr class="column-hr">
-            <ul class="ml-3  column-list">
-              <li class="column-list-item">Accessibility</li>
-              <li class="column-list-item">Environment</li>
-              <li class="column-list-item">Privacy</li>
-              <li class="column-list-item">Supplier Responsibility</li>
-            </ul>
-          </div>
-          <div class="col-md-12">
-            <span class="more-shop"> More ways to shop:Find a retailer near you. </span>
-            <hr class="section-hr">
-          </div>
-          <div class="mb-2 col-md-12">
-            <span class="copyright">Copyright © 2021 Apple Inc. All rights reserved.</span>
-            <a class="copyright" href="">| Privacy Policy</a>
-          </div>
         </div>
-      </div>
     </section>
-  </footer>
-
-  <script src="js/script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
 </body>
 </html>
