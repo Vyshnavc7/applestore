@@ -1576,3 +1576,30 @@ hr.hamburger-hr {
 .create{
     margin-top: 3px;
 }
+
+.need-more{
+    margin-left: 75px;
+}
+
+.security-policy{
+    margin-left: 210px;
+}
+
+.more-ways-to-shop{
+    margin-left: 280px;
+}
+.after-security-policy{
+    margin-left: 70px;
+    color:rgb(216, 216, 216);
+    background-color:gray
+}
+.before-footer{
+    height:2px;
+    border-width:0;
+    color:rgb(216, 216, 216);
+    background-color:gray
+}
+.copyright-style{
+    margin-left: 295px;
+}
+
